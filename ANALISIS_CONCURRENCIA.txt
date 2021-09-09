@@ -1,0 +1,8 @@
+Qué condiciones de carrera se podrían presentar?
+
+Cuando un usuario intente hacer una petición GET y otro este modificando los blueprints esto causara uan condición de carrera.
+Tambien cuando se este haciendo dos peticiones PUT al tiempo se presentara una condición de carrera.
+
+Cuales son las respectivas regiones críticas?
+
+Principalmente los blueprintPersistence, cuando se este modificando o agregando.
